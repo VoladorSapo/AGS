@@ -4,7 +4,7 @@
   <Component Name="SourceControl" />
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName />
+    <LastBuildGameFileName>_Debug=Dracula_AGS,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>
