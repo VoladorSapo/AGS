@@ -834,12 +834,12 @@
             <RealName>JONATHAN</RealName>
             <NormalView>1</NormalView>
             <SpeechView>0</SpeechView>
-            <IdleView>2</IdleView>
+            <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>1388</StartX>
-            <StartY>1514</StartY>
+            <StartX>300</StartX>
+            <StartY>1414</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>10</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -855,6 +855,46 @@
             <DiagonalLoops>True</DiagonalLoops>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>True</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>1</ID>
+            <ScriptName>cConde</ScriptName>
+            <RealName>Conde</RealName>
+            <NormalView>2</NormalView>
+            <SpeechView>0</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>1</StartingRoom>
+            <StartX>1400</StartX>
+            <StartY>1400</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
@@ -1448,8 +1488,258 @@
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
+                  <SpriteFolder Name="Jonathan_PickUp">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="16" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_obj\Jonathan_obj_0001.png</FileName>
+                          <OffsetX>67</OffsetX>
+                          <OffsetY>44</OffsetY>
+                          <ImportHeight>623</ImportHeight>
+                          <ImportWidth>381</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="17" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_obj\Jonathan_obj_0002.png</FileName>
+                          <OffsetX>67</OffsetX>
+                          <OffsetY>44</OffsetY>
+                          <ImportHeight>623</ImportHeight>
+                          <ImportWidth>381</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="18" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_obj\Jonathan_obj_0003.png</FileName>
+                          <OffsetX>67</OffsetX>
+                          <OffsetY>44</OffsetY>
+                          <ImportHeight>623</ImportHeight>
+                          <ImportWidth>381</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="19" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_obj\Jonathan_obj_0004.png</FileName>
+                          <OffsetX>67</OffsetX>
+                          <OffsetY>44</OffsetY>
+                          <ImportHeight>623</ImportHeight>
+                          <ImportWidth>381</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="20" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_obj\Jonathan_obj_0005.png</FileName>
+                          <OffsetX>67</OffsetX>
+                          <OffsetY>44</OffsetY>
+                          <ImportHeight>623</ImportHeight>
+                          <ImportWidth>381</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="21" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_obj\Jonathan_obj_0006.png</FileName>
+                          <OffsetX>67</OffsetX>
+                          <OffsetY>44</OffsetY>
+                          <ImportHeight>623</ImportHeight>
+                          <ImportWidth>381</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="22" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_obj\Jonathan_obj_0007.png</FileName>
+                          <OffsetX>67</OffsetX>
+                          <OffsetY>44</OffsetY>
+                          <ImportHeight>623</ImportHeight>
+                          <ImportWidth>381</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="23" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_obj\Jonathan_obj_0008.png</FileName>
+                          <OffsetX>67</OffsetX>
+                          <OffsetY>44</OffsetY>
+                          <ImportHeight>623</ImportHeight>
+                          <ImportWidth>381</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="24" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_obj\Jonathan_obj_0009.png</FileName>
+                          <OffsetX>67</OffsetX>
+                          <OffsetY>44</OffsetY>
+                          <ImportHeight>623</ImportHeight>
+                          <ImportWidth>381</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="25" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_obj\Jonathan_obj_0010.png</FileName>
+                          <OffsetX>67</OffsetX>
+                          <OffsetY>44</OffsetY>
+                          <ImportHeight>623</ImportHeight>
+                          <ImportWidth>381</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
                 </SubFolders>
                 <Sprites />
+              </SpriteFolder>
+              <SpriteFolder Name="Dracula">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="26" Width="442" Height="574" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Conde\Conde_walk\Conde_walk_0001.png</FileName>
+                      <OffsetX>181</OffsetX>
+                      <OffsetY>139</OffsetY>
+                      <ImportHeight>574</ImportHeight>
+                      <ImportWidth>442</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="27" Width="442" Height="574" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Conde\Conde_walk\Conde_walk_0002.png</FileName>
+                      <OffsetX>181</OffsetX>
+                      <OffsetY>139</OffsetY>
+                      <ImportHeight>574</ImportHeight>
+                      <ImportWidth>442</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="28" Width="442" Height="574" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Conde\Conde_walk\Conde_walk_0003.png</FileName>
+                      <OffsetX>181</OffsetX>
+                      <OffsetY>139</OffsetY>
+                      <ImportHeight>574</ImportHeight>
+                      <ImportWidth>442</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="29" Width="442" Height="574" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Conde\Conde_walk\Conde_walk_0004.png</FileName>
+                      <OffsetX>181</OffsetX>
+                      <OffsetY>139</OffsetY>
+                      <ImportHeight>574</ImportHeight>
+                      <ImportWidth>442</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="30" Width="442" Height="574" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Conde\Conde_walk\Conde_walk_0005.png</FileName>
+                      <OffsetX>181</OffsetX>
+                      <OffsetY>139</OffsetY>
+                      <ImportHeight>574</ImportHeight>
+                      <ImportWidth>442</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="31" Width="442" Height="574" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Conde\Conde_walk\Conde_walk_0006.png</FileName>
+                      <OffsetX>181</OffsetX>
+                      <OffsetY>139</OffsetY>
+                      <ImportHeight>574</ImportHeight>
+                      <ImportWidth>442</ImportWidth>
+                      <ImportAsTile>True</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
               </SpriteFolder>
             </SubFolders>
             <Sprites />
@@ -1734,20 +2024,113 @@
           </View>
           <View>
             <ID>2</ID>
-            <Name>Jonathan_Idle</Name>
+            <Name>Conde_Walk</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
                 <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>15</Image>
+                    <Image>26</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>27</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>28</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>29</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>30</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>31</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>26</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>27</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>28</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>29</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>30</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>31</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
               </Loop>
             </Loops>
           </View>
