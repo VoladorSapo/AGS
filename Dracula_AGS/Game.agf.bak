@@ -673,7 +673,7 @@
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick />
+                <OnClick>Button1_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -682,13 +682,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>32</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>17</Height>
+                <Height>70</Height>
                 <Locked>False</Locked>
-                <Width>112</Width>
-                <Left>16</Left>
-                <Top>32</Top>
+                <Width>65</Width>
+                <Left>64</Left>
+                <Top>8</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Button1</Name>
@@ -706,13 +706,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>33</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>17</Height>
+                <Height>70</Height>
                 <Locked>False</Locked>
-                <Width>112</Width>
-                <Left>176</Left>
-                <Top>32</Top>
+                <Width>65</Width>
+                <Left>147</Left>
+                <Top>8</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>Button2</Name>
@@ -730,13 +730,13 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>34</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>17</Height>
+                <Height>70</Height>
                 <Locked>False</Locked>
-                <Width>112</Width>
-                <Left>339</Left>
-                <Top>32</Top>
+                <Width>65</Width>
+                <Left>231</Left>
+                <Top>8</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>Button3</Name>
@@ -764,6 +764,30 @@
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>Button4</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>35</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>70</Height>
+                <Locked>False</Locked>
+                <Width>65</Width>
+                <Left>318</Left>
+                <Top>8</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Button5</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
@@ -1040,10 +1064,10 @@
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>76</HotspotX>
-        <HotspotY>4</HotspotY>
+        <HotspotX>12</HotspotX>
+        <HotspotY>5</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>14</Image>
+        <Image>9</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1052,10 +1076,10 @@
       </MouseCursor>
       <MouseCursor>
         <ID>1</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>10</HotspotX>
+        <HotspotY>2</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>10</Image>
+        <Image>11</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1064,10 +1088,10 @@
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>9</HotspotX>
+        <HotspotY>1</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>0</Image>
+        <Image>12</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1076,10 +1100,10 @@
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>10</HotspotX>
+        <HotspotY>2</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>0</Image>
+        <Image>13</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1866,21 +1890,6 @@
           <SpriteFolder Name="Cursores">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="9" Width="210" Height="278" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\assets acciones\punteros\bAm.png</FileName>
-                  <OffsetX>1288</OffsetX>
-                  <OffsetY>179</OffsetY>
-                  <ImportHeight>278</ImportHeight>
-                  <ImportWidth>210</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
               <Sprite Slot="10" Width="1920" Height="1080" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\assets acciones\punteros\bNe.png</FileName>
@@ -1888,51 +1897,6 @@
                   <OffsetY>0</OffsetY>
                   <ImportHeight>1080</ImportHeight>
                   <ImportWidth>1920</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="11" Width="1920" Height="1080" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\assets acciones\punteros\flem.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>1080</ImportHeight>
-                  <ImportWidth>1920</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="12" Width="1920" Height="1080" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\assets acciones\punteros\san.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>1080</ImportHeight>
-                  <ImportWidth>1920</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="13" Width="512" Height="512" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\volad\Downloads\cursor.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>512</ImportHeight>
-                  <ImportWidth>512</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -1953,6 +1917,131 @@
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="9" Width="32" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\AMARILLO PUNTERO.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>45</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="11" Width="32" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\NEGROPUNTERO.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>45</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="12" Width="32" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\SANGRE PUNTERO.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>45</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="13" Width="32" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\VERDE PUNTERO.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>45</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="botellaBotones">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="32" Width="65" Height="70" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\botellaAmarilla.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>70</ImportHeight>
+                  <ImportWidth>65</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="33" Width="65" Height="70" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\botellaNegra.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>70</ImportHeight>
+                  <ImportWidth>65</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="34" Width="65" Height="70" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\botellaSangre.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>70</ImportHeight>
+                  <ImportWidth>65</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="35" Width="65" Height="70" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\botellaVerde.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>70</ImportHeight>
+                  <ImportWidth>65</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
