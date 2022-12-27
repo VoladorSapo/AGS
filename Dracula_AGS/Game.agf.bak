@@ -8,7 +8,7 @@
       <UniqueID>149275140</UniqueID>
       <GUIDAsString>{797ca936-596b-42e1-af2f-821295e10ec1}</GUIDAsString>
       <ColorDepth>TrueColor</ColorDepth>
-      <CustomResolution>1280,720</CustomResolution>
+      <CustomResolution>800,600</CustomResolution>
       <AllowRelativeAssetResolutions>False</AllowRelativeAssetResolutions>
       <CompressSprites>False</CompressSprites>
       <SaveScreenshots>False</SaveScreenshots>
@@ -655,8 +655,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>80</Height>
-              <Width>1280</Width>
+              <Height>66</Height>
+              <Width>800</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -684,11 +684,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>17</Height>
+                <Height>13</Height>
                 <Locked>False</Locked>
-                <Width>114</Width>
-                <Left>17</Left>
-                <Top>31</Top>
+                <Width>70</Width>
+                <Left>10</Left>
+                <Top>24</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Button1</Name>
@@ -708,11 +708,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>17</Height>
+                <Height>13</Height>
                 <Locked>False</Locked>
-                <Width>114</Width>
-                <Left>176</Left>
-                <Top>31</Top>
+                <Width>70</Width>
+                <Left>110</Left>
+                <Top>24</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>Button2</Name>
@@ -732,11 +732,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>17</Height>
+                <Height>13</Height>
                 <Locked>False</Locked>
-                <Width>114</Width>
-                <Left>341</Left>
-                <Top>31</Top>
+                <Width>70</Width>
+                <Left>212</Left>
+                <Top>24</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>Button3</Name>
@@ -756,11 +756,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>25</Height>
+                <Height>19</Height>
                 <Locked>False</Locked>
-                <Width>168</Width>
-                <Left>1009</Left>
-                <Top>31</Top>
+                <Width>105</Width>
+                <Left>630</Left>
+                <Top>24</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>Button4</Name>
