@@ -654,7 +654,7 @@
         <GUIs>
           <GUIMain>
             <NormalGUI>
-              <OnClick />
+              <OnClick>gGui1_OnClick</OnClick>
               <Height>88</Height>
               <Width>1280</Width>
               <Left>0</Left>
