@@ -664,9 +664,9 @@
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>2</BorderColor>
+              <BorderColor>24960</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
+              <BackgroundColor>39882</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>0</ID>
               <Name>gGui1</Name>
@@ -2046,6 +2046,10 @@
                 </Source>
               </Sprite>
             </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="objetosInv">
+            <SubFolders />
+            <Sprites />
           </SpriteFolder>
         </SubFolders>
         <Sprites>
