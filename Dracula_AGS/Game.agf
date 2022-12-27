@@ -651,7 +651,126 @@
     <GUIs>
       <GUIFolder Name="Main">
         <SubFolders />
-        <GUIs />
+        <GUIs>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>80</Height>
+              <Width>1280</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>True</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>0</ID>
+              <Name>gGui1</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>17</Height>
+                <Locked>False</Locked>
+                <Width>114</Width>
+                <Left>17</Left>
+                <Top>31</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button1</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>17</Height>
+                <Locked>False</Locked>
+                <Width>114</Width>
+                <Left>176</Left>
+                <Top>31</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Button2</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>17</Height>
+                <Locked>False</Locked>
+                <Width>114</Width>
+                <Left>341</Left>
+                <Top>31</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Button3</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>25</Height>
+                <Locked>False</Locked>
+                <Width>168</Width>
+                <Left>1009</Left>
+                <Top>31</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Button4</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+        </GUIs>
       </GUIFolder>
     </GUIs>
     <InventoryItems>
