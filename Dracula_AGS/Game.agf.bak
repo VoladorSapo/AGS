@@ -1112,9 +1112,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>2</StartingRoom>
-            <StartX>230</StartX>
-            <StartY>1480</StartY>
+            <StartingRoom>1</StartingRoom>
+            <StartX>300</StartX>
+            <StartY>1500</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>40</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -1619,6 +1619,11 @@
           <Name>Noche</Name>
           <Type>int</Type>
           <DefaultValue>0</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>Start</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
