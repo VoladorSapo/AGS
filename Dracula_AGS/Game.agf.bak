@@ -750,30 +750,6 @@
               </GUIButton>
               <GUIButton>
                 <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>25</Height>
-                <Locked>False</Locked>
-                <Width>168</Width>
-                <Left>1100</Left>
-                <Top>33</Top>
-                <ZOrder>3</ZOrder>
-                <ID>3</ID>
-                <Name>Button4</Name>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Visible>True</Visible>
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
                 <ClickAction>SetCursorMode</ClickAction>
                 <NewModeNumber>1</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -789,8 +765,8 @@
                 <Width>60</Width>
                 <Left>198</Left>
                 <Top>8</Top>
-                <ZOrder>4</ZOrder>
-                <ID>4</ID>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
                 <Name>Button5</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
@@ -805,15 +781,15 @@
                 <Width>500</Width>
                 <Left>497</Left>
                 <Top>2</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
                 <Name>InventoryWindow1</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIInventory>
               <GUIButton>
-                <OnClick />
+                <OnClick>Button6_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -829,13 +805,30 @@
                 <Width>75</Width>
                 <Left>22</Left>
                 <Top>8</Top>
-                <ZOrder>6</ZOrder>
-                <ID>6</ID>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
                 <Name>Button6</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIButton>
+              <GUILabel>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <Text>@OVERHOTSPOT@</Text>
+                <Height>64</Height>
+                <Locked>False</Locked>
+                <Width>262</Width>
+                <Left>1005</Left>
+                <Top>27</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name>Label2</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -871,6 +864,284 @@
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label1</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>480</Height>
+              <Width>640</Width>
+              <Left>320</Left>
+              <Top>200</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>24960</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>39882</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>2</ID>
+              <Name>gGui3</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>Button4_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>X</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>21</Width>
+                <Left>613</Left>
+                <Top>6</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button4</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>41</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>70</Height>
+                <Locked>False</Locked>
+                <Width>60</Width>
+                <Left>44</Left>
+                <Top>40</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Button7</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>40</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>70</Height>
+                <Locked>False</Locked>
+                <Width>60</Width>
+                <Left>44</Left>
+                <Top>138</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Button8</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>14</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>70</Height>
+                <Locked>False</Locked>
+                <Width>60</Width>
+                <Left>44</Left>
+                <Top>243</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Button9</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>10</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>70</Height>
+                <Locked>False</Locked>
+                <Width>60</Width>
+                <Left>44</Left>
+                <Top>342</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Button10</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>32768</TextColor>
+                <Font>4</Font>
+                <Text>Sangre</Text>
+                <Height>23</Height>
+                <Locked>False</Locked>
+                <Width>58</Width>
+                <Left>146</Left>
+                <Top>40</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>Label3</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>4</Font>
+                <Text xml:space="preserve">          : Líquido por el cual son atraídos la mayoría de seres sobrenaturales. En este caso, este líquido virulento ayudará a Jonathan a abrirse paso por el castillo del conde.</Text>
+                <Height>77</Height>
+                <Locked>False</Locked>
+                <Width>427</Width>
+                <Left>146</Left>
+                <Top>40</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name>Label4</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>4</Font>
+                <Text xml:space="preserve">        : Verde y con una viscosidad horrible. Sin embargo este frasco de flemas porporcionará a Jonathan poder interactuar con objetos cercanos. ¿Qué descubrimentos hallará gracias a este brebaje asqueroso?</Text>
+                <Height>80</Height>
+                <Locked>False</Locked>
+                <Width>422</Width>
+                <Left>146</Left>
+                <Top>138</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
+                <Name>Label5</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>4</Font>
+                <Text xml:space="preserve">               : Este podrido mejunje con olor desagradable no es agradable al olfato ni a la vista, pero a nuestro protagonista Jonathan le permitirá recoger los objetos esparcidos por el majestuoso castillo.</Text>
+                <Height>79</Height>
+                <Locked>False</Locked>
+                <Width>432</Width>
+                <Left>146</Left>
+                <Top>243</Top>
+                <ZOrder>8</ZOrder>
+                <ID>8</ID>
+                <Name>Label6</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>4</Font>
+                <Text xml:space="preserve">                     : Si los anteriores líquidos le parecieron horribles, mejor que no abra este frasco de color amarillo oscuro... A usted le puede parecer un puré de vísceras de mosquito, a Jonathan, le servirá para usar sus objetos o lanzarlos.</Text>
+                <Height>67</Height>
+                <Locked>False</Locked>
+                <Width>429</Width>
+                <Left>146</Left>
+                <Top>342</Top>
+                <ZOrder>9</ZOrder>
+                <ID>9</ID>
+                <Name>Label7</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>5504</TextColor>
+                <Font>4</Font>
+                <Text>Flema</Text>
+                <Height>23</Height>
+                <Locked>False</Locked>
+                <Width>58</Width>
+                <Left>146</Left>
+                <Top>138</Top>
+                <ZOrder>10</ZOrder>
+                <ID>10</ID>
+                <Name>Label8</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>16936</TextColor>
+                <Font>4</Font>
+                <Text xml:space="preserve">Bilis Negra</Text>
+                <Height>18</Height>
+                <Locked>False</Locked>
+                <Width>98</Width>
+                <Left>146</Left>
+                <Top>243</Top>
+                <ZOrder>11</ZOrder>
+                <ID>11</ID>
+                <Name>Label9</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>50720</TextColor>
+                <Font>4</Font>
+                <Text xml:space="preserve">Bilis Amarrilla</Text>
+                <Height>24</Height>
+                <Locked>False</Locked>
+                <Width>135</Width>
+                <Left>146</Left>
+                <Top>342</Top>
+                <ZOrder>12</ZOrder>
+                <ID>12</ID>
+                <Name>Label10</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
@@ -1369,6 +1640,28 @@
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
         <SourceFilename />
+        <SizeMultiplier>1</SizeMultiplier>
+        <VerticalOffset>0</VerticalOffset>
+        <LineSpacing>0</LineSpacing>
+      </Font>
+      <Font>
+        <ID>3</ID>
+        <PointSize>25</PointSize>
+        <Name xml:space="preserve">Font 3</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <SourceFilename xml:space="preserve">C:\Users\Alberto Garrote\Downloads\Recursos AGS\JMH Typewriter-Bold.ttf</SourceFilename>
+        <SizeMultiplier>1</SizeMultiplier>
+        <VerticalOffset>0</VerticalOffset>
+        <LineSpacing>0</LineSpacing>
+      </Font>
+      <Font>
+        <ID>4</ID>
+        <PointSize>15</PointSize>
+        <Name xml:space="preserve">Font 4</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <SourceFilename xml:space="preserve">C:\Users\Alberto Garrote\Downloads\Recursos AGS\JMH Typewriter-Bold.ttf</SourceFilename>
         <SizeMultiplier>1</SizeMultiplier>
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
@@ -2702,8 +2995,8 @@
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
