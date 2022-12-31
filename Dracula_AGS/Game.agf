@@ -2051,6 +2051,11 @@
           <Type>int</Type>
           <DefaultValue />
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>RosarioRecogido</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
