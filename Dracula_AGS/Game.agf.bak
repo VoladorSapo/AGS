@@ -2526,6 +2526,11 @@ stop]]></Script>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>EsqueletoAviso</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
