@@ -2531,6 +2531,11 @@ stop]]></Script>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>HojaCaida</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2543,14 +2548,14 @@ stop]]></Script>
                   <SpriteFolder Name="Jonathan_Walk">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="1" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="1" Width="508" Height="724" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_walk\Jonathan_walk_0001.png</FileName>
-                          <OffsetX>67</OffsetX>
-                          <OffsetY>44</OffsetY>
-                          <ImportHeight>623</ImportHeight>
-                          <ImportWidth>381</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
+                          <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\erjoni\Jonathan_walk_0001.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>724</ImportHeight>
+                          <ImportWidth>508</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
                           <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -2558,14 +2563,14 @@ stop]]></Script>
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="2" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="2" Width="508" Height="724" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_walk\Jonathan_walk_0002.png</FileName>
-                          <OffsetX>67</OffsetX>
-                          <OffsetY>44</OffsetY>
-                          <ImportHeight>623</ImportHeight>
-                          <ImportWidth>381</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
+                          <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\erjoni\Jonathan_walk_0002.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>724</ImportHeight>
+                          <ImportWidth>508</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
                           <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -2573,14 +2578,14 @@ stop]]></Script>
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="3" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="3" Width="508" Height="724" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_walk\Jonathan_walk_0003.png</FileName>
-                          <OffsetX>67</OffsetX>
-                          <OffsetY>44</OffsetY>
-                          <ImportHeight>623</ImportHeight>
-                          <ImportWidth>381</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
+                          <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\erjoni\Jonathan_walk_0003.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>724</ImportHeight>
+                          <ImportWidth>508</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
                           <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -2588,14 +2593,14 @@ stop]]></Script>
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="4" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="4" Width="508" Height="724" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_walk\Jonathan_walk_0004.png</FileName>
-                          <OffsetX>67</OffsetX>
-                          <OffsetY>44</OffsetY>
-                          <ImportHeight>623</ImportHeight>
-                          <ImportWidth>381</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
+                          <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\erjoni\Jonathan_walk_0004.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>724</ImportHeight>
+                          <ImportWidth>508</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
                           <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -2603,14 +2608,14 @@ stop]]></Script>
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="5" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="5" Width="508" Height="724" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_walk\Jonathan_walk_0005.png</FileName>
-                          <OffsetX>67</OffsetX>
-                          <OffsetY>44</OffsetY>
-                          <ImportHeight>623</ImportHeight>
-                          <ImportWidth>381</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
+                          <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\erjoni\Jonathan_walk_0005.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>724</ImportHeight>
+                          <ImportWidth>508</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
                           <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -2618,14 +2623,14 @@ stop]]></Script>
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="6" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="6" Width="508" Height="724" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_walk\Jonathan_walk_0006.png</FileName>
-                          <OffsetX>67</OffsetX>
-                          <OffsetY>44</OffsetY>
-                          <ImportHeight>623</ImportHeight>
-                          <ImportWidth>381</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
+                          <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\erjoni\Jonathan_walk_0006.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>724</ImportHeight>
+                          <ImportWidth>508</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
                           <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -2633,14 +2638,14 @@ stop]]></Script>
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="7" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="7" Width="508" Height="724" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_walk\Jonathan_walk_0007.png</FileName>
-                          <OffsetX>67</OffsetX>
-                          <OffsetY>44</OffsetY>
-                          <ImportHeight>623</ImportHeight>
-                          <ImportWidth>381</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
+                          <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\erjoni\Jonathan_walk_0007.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>724</ImportHeight>
+                          <ImportWidth>508</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
                           <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -2648,14 +2653,14 @@ stop]]></Script>
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="8" Width="381" Height="623" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="8" Width="508" Height="724" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Jonathan\Jonathan_walk\Jonathan_walk_0008.png</FileName>
-                          <OffsetX>67</OffsetX>
-                          <OffsetY>44</OffsetY>
-                          <ImportHeight>623</ImportHeight>
-                          <ImportWidth>381</ImportWidth>
-                          <ImportAsTile>True</ImportAsTile>
+                          <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\erjoni\Jonathan_walk_0008.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>724</ImportHeight>
+                          <ImportWidth>508</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
                           <RemapToRoomPalette>False</RemapToRoomPalette>
