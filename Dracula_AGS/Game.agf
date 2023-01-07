@@ -2795,6 +2795,16 @@ stop
           <Type>int</Type>
           <DefaultValue>0</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>wCam</Name>
+          <Type>int</Type>
+          <DefaultValue />
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>hCam</Name>
+          <Type>int</Type>
+          <DefaultValue />
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
