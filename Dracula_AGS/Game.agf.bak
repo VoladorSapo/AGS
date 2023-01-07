@@ -792,7 +792,7 @@
                 <Locked>False</Locked>
                 <Width>500</Width>
                 <Left>495</Left>
-                <Top>1</Top>
+                <Top>3</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>InventoryWindow1</Name>
@@ -1187,10 +1187,10 @@
           </InventoryItem>
           <InventoryItem>
             <ID>2</ID>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>36</HotspotX>
+            <HotspotY>43</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>0</CursorImage>
+            <CursorImage>38</CursorImage>
             <Image>38</Image>
             <Description xml:space="preserve">New inventory item</Description>
             <Name>iLlave</Name>
@@ -1281,7 +1281,7 @@
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>0</CursorImage>
-            <Image>44</Image>
+            <Image>50</Image>
             <Description xml:space="preserve">New inventory item</Description>
             <Name>iZafiro</Name>
             <Properties />
@@ -1299,7 +1299,7 @@
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>0</CursorImage>
-            <Image>43</Image>
+            <Image>49</Image>
             <Description xml:space="preserve">New inventory item</Description>
             <Name>iRubi</Name>
             <Properties />
@@ -1331,11 +1331,11 @@
           </InventoryItem>
           <InventoryItem>
             <ID>10</ID>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>53</HotspotX>
+            <HotspotY>5</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>46</CursorImage>
-            <Image>46</Image>
+            <CursorImage>47</CursorImage>
+            <Image>47</Image>
             <Description xml:space="preserve">Estaca de Esmeralda</Description>
             <Name>iEsmeralda</Name>
             <Properties />
@@ -4052,36 +4052,6 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="43" Width="141" Height="121" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Objetos\Objetos_Inv\Rubi_inv.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>121</ImportHeight>
-                  <ImportWidth>141</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="44" Width="133" Height="122" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>C:\Users\volad\Downloads\Assets_Dracula\Assets_Dracula\Objetos\Objetos_Inv\Zafiro_inv.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>122</ImportHeight>
-                  <ImportWidth>133</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
               <Sprite Slot="45" Width="2043" Height="1548" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Raul\Downloads\Cosas de Dracula Ags\Sprites\Objetos\Tapa3.png</FileName>
@@ -4112,9 +4082,54 @@ stop
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="46" Width="139" Height="145" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="47" Width="85" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Raul\Downloads\Cosas de Dracula Ags\Sprites\Objetos\Esmeralda_inv.png</FileName>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\esmeralda.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>80</ImportHeight>
+                  <ImportWidth>85</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="49" Width="85" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\rubi.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>80</ImportHeight>
+                  <ImportWidth>85</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="50" Width="85" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\zafiro.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>80</ImportHeight>
+                  <ImportWidth>85</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="43" Width="139" Height="145" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\Downloads\Esmeralda_inv.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>145</ImportHeight>
@@ -4123,7 +4138,7 @@ stop
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
