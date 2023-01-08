@@ -2137,6 +2137,7 @@ cJonathan:Pero sin embargo parece tan inmovil,
 cJonathan:sin latido.
 cJonathan:...
 cJonathan:¡Tiene que tener la llave!
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -3686,6 +3687,21 @@ stop
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
                       <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="100" Width="163" Height="218" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Raul\Downloads\cuadro_conde_r3_ojos.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>218</ImportHeight>
+                      <ImportWidth>163</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
