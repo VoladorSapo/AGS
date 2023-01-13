@@ -5990,7 +5990,10 @@ stop
   <Component Name="Rooms" />
   <Component Name="Translations" />
   <Component Name="MusicAndSpeech">
-    <SpeechVoxFiles />
+    <SpeechVoxFiles>
+      <File Name="speech\jona1.mp3" FileTime="2023-01-08 19:37:14Z" />
+      <File Name="speech\jona2.mp3" FileTime="2023-01-08 19:37:14Z" />
+    </SpeechVoxFiles>
     <PamFiles />
   </Component>
   <Component Name="SourceControl">
