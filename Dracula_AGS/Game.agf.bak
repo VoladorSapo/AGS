@@ -2116,9 +2116,9 @@ return
 @2
 
 cCavi: ¡Hey, Hey!, no preguntas tanto.
-cCavi:…
+cCavi:...
 cCavi:¡Hey, Hey!, es broma.
-cCavi:…
+cCavi:...
 cCavi:Ou, pues mi historia se remonta a 1453. 
 cCavi:Constantinopla había caído, yo era uno de esos turcos musulmanes. 
 cCavi:Nuestro imperio se extendía rápidamente por Europa. 
@@ -2158,25 +2158,25 @@ stop]]></Script>
             <DialogOptions>
               <DialogOption>
                 <ID>1</ID>
-                <Text xml:space="preserve">Pe…pero,¡tú!...¡qué eres!</Text>
+                <Text xml:space="preserve">Pe...pero,¡tú!...¡qué eres!</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>2</ID>
-                <Text xml:space="preserve">¿Co… cómo has llegado aquí?</Text>
+                <Text xml:space="preserve">¿Co...cómo has llegado aquí?</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>3</ID>
-                <Text xml:space="preserve">¿Pe… pero Drácula?</Text>
+                <Text xml:space="preserve">¿Pe... pero Drácula?</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>4</ID>
-                <Text xml:space="preserve">¿Qu… qué haces aquí?</Text>
+                <Text xml:space="preserve">¿Qu...qué haces aquí?</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
