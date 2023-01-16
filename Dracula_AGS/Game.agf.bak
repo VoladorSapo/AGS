@@ -1389,11 +1389,11 @@
           </InventoryItem>
           <InventoryItem>
             <ID>10</ID>
-            <HotspotX>53</HotspotX>
-            <HotspotY>5</HotspotY>
+            <HotspotX>22</HotspotX>
+            <HotspotY>62</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>47</CursorImage>
-            <Image>47</Image>
+            <CursorImage>105</CursorImage>
+            <Image>105</Image>
             <Description xml:space="preserve">Estaca de Esmeralda</Description>
             <Name>iEsmeralda</Name>
             <Properties />
@@ -2252,8 +2252,8 @@ stop
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>10</HotspotX>
-        <HotspotY>4</HotspotY>
+        <HotspotX>9</HotspotX>
+        <HotspotY>3</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>12</Image>
         <View>0</View>
@@ -2265,7 +2265,7 @@ stop
       <MouseCursor>
         <ID>1</ID>
         <HotspotX>11</HotspotX>
-        <HotspotY>4</HotspotY>
+        <HotspotY>6</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>13</Image>
         <View>0</View>
@@ -2288,8 +2288,8 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>10</HotspotX>
-        <HotspotY>2</HotspotY>
+        <HotspotX>11</HotspotX>
+        <HotspotY>6</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>9</Image>
         <View>0</View>
@@ -2324,8 +2324,8 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>6</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>9</HotspotX>
+        <HotspotY>1</HotspotY>
         <StandardMode>False</StandardMode>
         <Image>12</Image>
         <View>0</View>
@@ -4172,9 +4172,24 @@ stop
           <SpriteFolder Name="Cursores">
             <SubFolders />
             <Sprites>
+              <Sprite Slot="11" Width="32" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\negro.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>40</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
               <Sprite Slot="9" Width="32" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\AMARILLO PUNTERO.png</FileName>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\AMARILLO PUNTERO2.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>45</ImportHeight>
@@ -4189,7 +4204,7 @@ stop
               </Sprite>
               <Sprite Slot="12" Width="32" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\SANGRE PUNTERO.png</FileName>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\SANGRE PUNTERO3.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>45</ImportHeight>
@@ -4204,25 +4219,10 @@ stop
               </Sprite>
               <Sprite Slot="13" Width="32" Height="45" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\VERDE PUNTERO.png</FileName>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\VERDE PUNTERO1.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>45</ImportHeight>
-                  <ImportWidth>32</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="11" Width="32" Height="40" ColorDepth="32" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\negro.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>40</ImportHeight>
                   <ImportWidth>32</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
@@ -4599,6 +4599,36 @@ stop
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="104" Width="194" Height="194" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\estaca_inv.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>194</ImportHeight>
+                  <ImportWidth>194</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="105" Width="85" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Alberto Garrote\OneDrive\Escritorio\NARRACIOASSETS\estca3.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>80</ImportHeight>
+                  <ImportWidth>85</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
