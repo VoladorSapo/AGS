@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Dracula</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>5</AudioIndexer>
+      <AudioIndexer>7</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
@@ -2221,6 +2221,7 @@ cJonathan:Pero sin embargo parece tan inmovil,
 cJonathan:sin latido.
 cJonathan:...
 cJonathan:¡Tiene que tener la llave!
+cJonathan:Tal vez debería intentar buscar dentro de ese maldito ataúd...
 stop
 ]]></Script>
             <DialogOptions />
@@ -2232,16 +2233,17 @@ stop
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cJonathan:...
-cJonathan:No
+cJonathan:No...
 cJonathan:...
 cJonathan:...
-cJonathan:No puede ser
+cJonathan:No puede ser.
 cJonathan:¡No puede ser!
 cJonathan:¡No tiene ninguna llave!
 cJonathan:...
 cJonathan:...
-cJonathan:Debo matarle
+cJonathan:Debo matarle.
 cJonathan:...
+cJonathan:Seguro que puedo encontrar algo en la estancia anterior con lo que acabar con él.
 stop
 ]]></Script>
             <DialogOptions />
@@ -2971,6 +2973,11 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>UsoLlavePuertaD</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>PalEasterEggnoBug</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
@@ -5969,9 +5976,9 @@ stop
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aResaka</ScriptName>
                 <ID>0</ID>
                 <SourceFileName xml:space="preserve">Music/la resaka-supermerk2 (128 kbps).mp3</SourceFileName>
+                <ScriptName>aResaka</ScriptName>
                 <Index>1</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -5979,12 +5986,12 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2023-01-15 21:28:30Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2023-01-16 08:33:19Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aCavi</ScriptName>
                 <ID>1</ID>
                 <SourceFileName>Music/Cavi.mp3</SourceFileName>
+                <ScriptName>aCavi</ScriptName>
                 <Index>2</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -5992,12 +5999,12 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2023-01-15 21:56:31Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2023-01-16 08:33:19Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aDia</ScriptName>
                 <ID>2</ID>
                 <SourceFileName>Music/Dia.mp3</SourceFileName>
+                <ScriptName>aDia</ScriptName>
                 <Index>3</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -6005,12 +6012,12 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2023-01-15 21:56:24Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2023-01-16 08:33:19Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aNoche</ScriptName>
                 <ID>3</ID>
                 <SourceFileName>Music/Noche.mp3</SourceFileName>
+                <ScriptName>aNoche</ScriptName>
                 <Index>4</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -6018,12 +6025,12 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2023-01-15 21:56:29Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2023-01-16 08:33:19Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMeretrices</ScriptName>
                 <ID>4</ID>
                 <SourceFileName xml:space="preserve">C:\Users\volad\Downloads\Mates Examen 2\meretrices.mp3</SourceFileName>
+                <ScriptName>aMeretrices</ScriptName>
                 <Index>5</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -6031,7 +6038,33 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2023-01-16 17:46:28Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2023-01-16 18:23:13Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ID>5</ID>
+                <SourceFileName>Music/despuesArmario.mp3</SourceFileName>
+                <ScriptName>aDespuesArmario</ScriptName>
+                <Index>6</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2023-01-16 19:02:35Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ID>6</ID>
+                <SourceFileName>Music/despuesEspejo.mp3</SourceFileName>
+                <ScriptName>aDespuesEspejo</ScriptName>
+                <Index>7</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2023-01-16 19:02:36Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -6116,8 +6149,8 @@ stop
   <Component Name="Translations" />
   <Component Name="MusicAndSpeech">
     <SpeechVoxFiles>
-      <File Name="speech\jona1.mp3" FileTime="2023-01-08 19:37:14Z" />
-      <File Name="speech\jona2.mp3" FileTime="2023-01-08 19:37:14Z" />
+      <File Name="speech\jona1.mp3" FileTime="2023-01-08 19:31:15Z" />
+      <File Name="speech\jona2.mp3" FileTime="2023-01-08 19:31:15Z" />
     </SpeechVoxFiles>
     <PamFiles />
   </Component>
