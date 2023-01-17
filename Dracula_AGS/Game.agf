@@ -1218,6 +1218,172 @@
               </GUILabel>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>480</Height>
+              <Width>640</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>3</ID>
+              <Name>gGui4</Name>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>520</Height>
+              <Width>640</Width>
+              <Left>320</Left>
+              <Top>200</Top>
+              <Clickable>True</Clickable>
+              <Visible>True</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>24960</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>63357</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>4</ID>
+              <Name>gGui32</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>Button4_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>X</Text>
+                <Height>30</Height>
+                <Locked>False</Locked>
+                <Width>21</Width>
+                <Left>614</Left>
+                <Top>4</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button42</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>32768</TextColor>
+                <Font>4</Font>
+                <Text xml:space="preserve">3 de Mayo:</Text>
+                <Height>18</Height>
+                <Locked>False</Locked>
+                <Width>87</Width>
+                <Left>14</Left>
+                <Top>14</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Label32</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>6</Font>
+                <Text xml:space="preserve">Buenas Mina, querida mía cada día que pase le echo de menos, y eso que hace tan solo dos día desde que me marché, mi amor por usted no tiene límites. Parece mentira que ya hayan pasado dos días desde que salí de Munich en tren a las 8.30 de la mañana. A primeras horas del día 2 de Mayo llegué a Viena con más retraso del esperado. Así que me tocó quedarme esperando en la estación de Budapest, Budapest es una ciudad increíble. Ya en el segundo tren, tras mi transbordo, al cruzar el Danubio tuve la impresión de que estaba saliendo de occidente y me internaba en oriente. Llegamos con bastante puntualidad a Klausenburg después del anochecer. Me alojé en el hotel Royal y cené un plato típico que se llamaba “paprika hendl”.No he logrado dormir bien a pesar de que mi cama era bastante cómoda.</Text>
+                <Height>467</Height>
+                <Locked>False</Locked>
+                <Width>291</Width>
+                <Left>14</Left>
+                <Top>52</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Label42</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>6</Font>
+                <Text xml:space="preserve"> He tenido sueños extraños en los que tu también aparecías. Siempre estas en mi sueños querida Mina. Tras un desayuno bien condimentado me dirigí apresuradamente a la estación pues el último tren que cogería salía a las siete. Desde el tren veía pequeños pueblos, castillos situados en cumbres escarpadas seguramente hubieses deleitado con tus bellos ojos. Pues tuve una sensación similar a la que tengo cuando te miro a tí, mi amor. Cuán bellas son las tierras de Transilvania donde campesinos con chaquetas cortas y gorros redondos labran las tierras que algún día fueron terreno de batalla. Mereció la pena leer tanto sobre Transilvania antes de venir pues de otro modo me hubiese asustado de la actitud de sus gentes, sin lugar a duda son muy supersticiosas. Acabo de llegar a la posada en la que me hospedaré esta noche, me voy a acostar pero antes debía de escribirte, te amo.</Text>
+                <Height>494</Height>
+                <Locked>False</Locked>
+                <Width>317</Width>
+                <Left>316</Left>
+                <Top>52</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Label13</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
+              <GUIButton>
+                <OnClick>Button12_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>BottomCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>-&gt;</Text>
+                <Height>25</Height>
+                <Locked>False</Locked>
+                <Width>56</Width>
+                <Left>567</Left>
+                <Top>481</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Button12</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Button13_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>BottomCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>25</Height>
+                <Locked>False</Locked>
+                <Width>56</Width>
+                <Left>14</Left>
+                <Top>481</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>Button13</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -2440,6 +2606,17 @@ stop
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
       </Font>
+      <Font>
+        <ID>6</ID>
+        <PointSize>15</PointSize>
+        <Name xml:space="preserve">Font 6</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <SourceFilename xml:space="preserve">C:\Users\volad\Downloads\octin-sports\octin sports free.ttf</SourceFilename>
+        <SizeMultiplier>1</SizeMultiplier>
+        <VerticalOffset>0</VerticalOffset>
+        <LineSpacing>0</LineSpacing>
+      </Font>
     </Fonts>
     <Palette>
       <PaletteEntry Index="0" Type="Gamewide" Red="0" Green="0" Blue="0" />
@@ -2980,6 +3157,16 @@ stop
           <Name>PalEasterEggnoBug</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>HojasDiarioJonathan</Name>
+          <Type>int</Type>
+          <DefaultValue>3</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>HojaActualJonathan</Name>
+          <Type>int</Type>
+          <DefaultValue>1</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4657,6 +4844,86 @@ stop
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="gGui32Import">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="106" Width="60" Height="70" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="107" Width="60" Height="70" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="108" Width="60" Height="70" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="109" Width="60" Height="70" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="110" Width="75" Height="75" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
                 </Source>
               </Sprite>
             </Sprites>
