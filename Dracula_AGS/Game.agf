@@ -703,7 +703,7 @@
                 <Height>70</Height>
                 <Locked>False</Locked>
                 <Width>60</Width>
-                <Left>360</Left>
+                <Left>404</Left>
                 <Top>8</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
@@ -727,7 +727,7 @@
                 <Height>70</Height>
                 <Locked>False</Locked>
                 <Width>60</Width>
-                <Left>277</Left>
+                <Left>332</Left>
                 <Top>8</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -751,7 +751,7 @@
                 <Height>70</Height>
                 <Locked>False</Locked>
                 <Width>60</Width>
-                <Left>120</Left>
+                <Left>188</Left>
                 <Top>8</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -775,7 +775,7 @@
                 <Height>70</Height>
                 <Locked>False</Locked>
                 <Width>60</Width>
-                <Left>198</Left>
+                <Left>260</Left>
                 <Top>8</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
@@ -815,7 +815,7 @@
                 <Height>75</Height>
                 <Locked>False</Locked>
                 <Width>75</Width>
-                <Left>22</Left>
+                <Left>110</Left>
                 <Top>8</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
@@ -841,6 +841,30 @@
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUILabel>
+              <GUIButton>
+                <OnClick>Button14_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>111</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>80</Height>
+                <Locked>False</Locked>
+                <Width>85</Width>
+                <Left>13</Left>
+                <Top>8</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
+                <Name>Button14</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>False</Visible>
+              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1247,7 +1271,7 @@
               <Left>320</Left>
               <Top>200</Top>
               <Clickable>True</Clickable>
-              <Visible>True</Visible>
+              <Visible>False</Visible>
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
@@ -1260,7 +1284,7 @@
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>Button4_OnClick</OnClick>
+                <OnClick>Button42_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -1275,7 +1299,7 @@
                 <Locked>False</Locked>
                 <Width>21</Width>
                 <Left>614</Left>
-                <Top>4</Top>
+                <Top>6</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Button42</Name>
@@ -1304,7 +1328,7 @@
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>6</Font>
-                <Text xml:space="preserve">Buenas Mina, querida mía cada día que pase le echo de menos, y eso que hace tan solo dos día desde que me marché, mi amor por usted no tiene límites. Parece mentira que ya hayan pasado dos días desde que salí de Munich en tren a las 8.30 de la mañana. A primeras horas del día 2 de Mayo llegué a Viena con más retraso del esperado. Así que me tocó quedarme esperando en la estación de Budapest, Budapest es una ciudad increíble. Ya en el segundo tren, tras mi transbordo, al cruzar el Danubio tuve la impresión de que estaba saliendo de occidente y me internaba en oriente. Llegamos con bastante puntualidad a Klausenburg después del anochecer. Me alojé en el hotel Royal y cené un plato típico que se llamaba “paprika hendl”.No he logrado dormir bien a pesar de que mi cama era bastante cómoda.</Text>
+                <Text xml:space="preserve">Anoche llegué al Castillo bastante tarde, mi experiencia en el último trayecto no fue nada agradable Mina. Estoy empezando a contemplar cosas que escapan a toda racionalidad. Quizás fuese la fatiga del viaje, pero esta noche pude dormir bastante. Cuando llegué tuve el placer de conocer a Drácula, no obstante me parece una persona muy extraña, parece estar muerto en vida. Ya que su aspecto alterna vigorosidad y tonalidades funestas. No me fío mucho de él, no es como me esperaba. También me hallo inquieto por la soledad que transmite el castillo, pese a que el conde me dijo que tenía sirvientes aquí no se ve ni se escucha a nadie. Bueno Mina he de dejarte que ya está la cena. </Text>
                 <Height>467</Height>
                 <Locked>False</Locked>
                 <Width>291</Width>
@@ -1321,7 +1345,7 @@
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>6</Font>
-                <Text xml:space="preserve"> He tenido sueños extraños en los que tu también aparecías. Siempre estas en mi sueños querida Mina. Tras un desayuno bien condimentado me dirigí apresuradamente a la estación pues el último tren que cogería salía a las siete. Desde el tren veía pequeños pueblos, castillos situados en cumbres escarpadas seguramente hubieses deleitado con tus bellos ojos. Pues tuve una sensación similar a la que tengo cuando te miro a tí, mi amor. Cuán bellas son las tierras de Transilvania donde campesinos con chaquetas cortas y gorros redondos labran las tierras que algún día fueron terreno de batalla. Mereció la pena leer tanto sobre Transilvania antes de venir pues de otro modo me hubiese asustado de la actitud de sus gentes, sin lugar a duda son muy supersticiosas. Acabo de llegar a la posada en la que me hospedaré esta noche, me voy a acostar pero antes debía de escribirte, te amo.</Text>
+                <Text xml:space="preserve">Llevo un rato en el cuarto y no consigo dormirme, no te conté que hoy encontré una biblioteca increíble justo al lado de mi cuarto. Como sabes la Comedia de Aristóteles es un libro perdido, vale pues no puedes imaginar que allí encontré una copia en perfecto estado. Creo que daré una vuelta por el castillo a ver si me despejo y encuentro otro recobeco chulo, y así hago que el sueño se apodere de mí.</Text>
                 <Height>494</Height>
                 <Locked>False</Locked>
                 <Width>317</Width>
@@ -1349,7 +1373,7 @@
                 <Height>25</Height>
                 <Locked>False</Locked>
                 <Width>56</Width>
-                <Left>567</Left>
+                <Left>565</Left>
                 <Top>481</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
@@ -1382,6 +1406,93 @@
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>160</Height>
+              <Width>430</Width>
+              <Left>400</Left>
+              <Top>300</Top>
+              <Clickable>True</Clickable>
+              <Visible>False</Visible>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>65535</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>5</ID>
+              <Name>gGui5</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>111</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>80</Height>
+                <Locked>False</Locked>
+                <Width>85</Width>
+                <Left>275</Left>
+                <Top>39</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button15</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Button17_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>3</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>X</Text>
+                <Height>30</Height>
+                <Locked>False</Locked>
+                <Width>21</Width>
+                <Left>379</Left>
+                <Top>8</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Button17</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>5</Font>
+                <Text xml:space="preserve">Podrás volver a leer las cartas si pulsas el botón del diario</Text>
+                <Height>66</Height>
+                <Locked>False</Locked>
+                <Width>239</Width>
+                <Left>24</Left>
+                <Top>45</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Label14</Name>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUILabel>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -1893,9 +2004,9 @@
             <Properties />
             <Interactions>
               <Event Index="0">cCavi_Look</Event>
-              <Event Index="1" />
+              <Event Index="1">cCavi_Interact</Event>
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">cCavi_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -3167,6 +3278,11 @@ stop
           <Name>HojaActualJonathan</Name>
           <Type>int</Type>
           <DefaultValue>1</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>TutorialCartas</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4843,6 +4959,21 @@ stop
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="111" Width="85" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\volad\Downloads\Mates Examen 2\Diario.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>80</ImportHeight>
+                  <ImportWidth>85</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>PaletteIndex0</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
