@@ -1659,7 +1659,7 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">iMasterSword_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
             </Interactions>
@@ -2373,6 +2373,7 @@ cConde: Y aún menos se atreva a entrar en zonas ocultas del castillo. Los peligr
  cConde.Walk(1700,880,eBlock);
  cConde.ChangeRoom(1,0,0);
 cJonathan: ¿Cómo sabe este hombre mi apellido?
+ DialogoBiblioteca=true;
 stop
 ]]></Script>
             <DialogOptions />
